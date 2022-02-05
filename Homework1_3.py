@@ -1,0 +1,10 @@
+print('Введите длину прямоугольника')
+length = input()
+length = int(length)
+print('Введите ширину прямоугольника')
+width = input()
+width = int(width)
+S = length * width
+perimeter = 2 * (length + width)
+print('Площадь прямоугольника равна', S)
+print('Периметр равен', perimeter)
